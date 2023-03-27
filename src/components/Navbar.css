@@ -1,0 +1,40 @@
+.navBar-container{
+    display: flex;
+    justify-content: space-between;
+    padding:.5em 1em;
+    background-color: #f95959;
+    margin: auto;
+    align-items: center;
+}
+.navBar-container img{
+    width: 80px;
+}
+
+.inputs form{
+    display: flex;
+    gap: .5em;
+}
+
+.inputs form input, .inputs form button{
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    padding: .9em 1.2em;
+    font-size: 1rem;
+
+}
+
+.inputs form button{
+    border-radius: 1em;
+    outline: none;
+    content: 'Search';
+    transition: all .3s
+}
+
+
+.inputs form button:hover{
+    background-color: #cecece;
+    transform: rotate(180deg);
+    content: 'ok';
+    
+}

@@ -1,0 +1,64 @@
+.card-container{
+    display: flex;
+    margin: 1rem;
+    padding:  .6em;
+    border-radius: 1em;
+    background-color: #cecece;
+    justify-content: space-around;
+    gap:1rem;
+    box-shadow: 1px 3px 4px #000;
+    transition: all .3s;
+}
+.card-container p, .card-container h4{
+    margin: 0;
+    padding: 0;
+}
+
+.right-card{
+display: flex;
+flex-direction: column;
+gap: 1em;
+align-items: center;
+justify-content: space-between;
+}
+
+.card-container h4{
+    font-size: 1.4rem;
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,.5); */
+}
+
+.country-name, .max-min{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.country-name p{
+    font-weight: 200;
+    margin-top: -.2em;
+}
+.max-min p{ 
+    align-items: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.max-min b{ 
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+.left-card img{
+    filter: drop-shadow(-2px 4px 1px rgba(0, 0, 0, .75));
+}
+
+.drop-sh{
+    /* filter: drop-shadow(-3px 2px 1px rgba(0, 0, 0, .2)); */
+
+}
